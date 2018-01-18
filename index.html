@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Javascript Calculator</title>
+    <link rel="stylesheet" href="css/index.css" type="text/css" />
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css" type="text/css" />
+    <script type="text/javascript" src="bower-components/jquery/dist/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <h1>Javascript Calculator</h1>
+    <div id='calc'>
+      <form>
+        <input type='text' id='display'>
+        <br>
+        <input type='button' value='AC' id='keys' onclick='onDisplayScreen("c")'>
+        <input type='button' value='CE' id='keys' onclick='backspace()'>
+        <input type='button' value='+/-' id='keys' onclick='change()'>
+        <input type='button' value='/' id='keys' onclick='onDisplayScreen("/")'>
+        <br>
+        <input type='button' value='7' id='keys' onclick='onDisplayScreen("7")'>
+        <input type='button' value='8' id='keys' onclick='onDisplayScreen("8")'>
+        <input type='button' value='9' id='keys' onclick='onDisplayScreen("9")'>
+        <input type='button' value='*' id='keys' onclick='onDisplayScreen("*")'>
+        <br>
+        <input type='button' value='4' id='keys' onclick='onDisplayScreen("4")'>
+        <input type='button' value='5' id='keys' onclick='onDisplayScreen("5")'>
+        <input type='button' value='6' id='keys' onclick='onDisplayScreen("6")'>
+        <input type='button' value='-' id='keys' onclick='onDisplayScreen("-")'>
+        <br>
+        <input type='button' value='1' id='keys' onclick='onDisplayScreen("1")'>
+        <input type='button' value='2' id='keys' onclick='onDisplayScreen("2")'>
+        <input type='button' value='3' id='keys' onclick='onDisplayScreen("3")'>
+        <input type='button' value='+' id='keys' onclick='onDisplayScreen("+")'>
+        <br>
+        <input type='button' value='0' id='keys' onclick='onDisplayScreen("0")'>
+        <input type='button' value='.' id='keys' onclick='onDisplayScreen(".")'>
+        <input type='button' value='=' id='equal' onclick='answer()'>
+      </form>
+    </div>
+    <script type="text/javascript" src="js/index.js"></script>
+  </body>
+  
+</html>
+
