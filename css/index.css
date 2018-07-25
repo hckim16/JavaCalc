@@ -15,7 +15,7 @@ h1{
 }
 
 #calc{
-  background-color: gray;
+  background-color: blue;
   width: 250px;
   height: 350px;
   border: 1px solid black;
@@ -37,6 +37,7 @@ h1{
 }
 
 #keys{
+  background-color: orange;
   width: 41px;
   height: 35px;
   margin: 4px;
@@ -53,4 +54,5 @@ h1{
   border-radius: 5px;
   box-shadow: 0px 0px 2px 1px black;
 }
+
 
